@@ -1,7 +1,7 @@
 # Sample Problem
 
 ## Problem Statement: <br>
-For each of the _N_ testcases, print the sum of teo integers _A_ and _B_.
+For each of the _N_ testcases, print the sum of two integers _A_ and _B_.
 
 ## Constraints: <br>
  - 1 &le; _N_ &le; 10<sup>5</sup>
