@@ -1,0 +1,10 @@
+# Folders
+input/
+output/
+
+# Files
+*.pyc
+*.exe
+*.ini
+*.zip
+
