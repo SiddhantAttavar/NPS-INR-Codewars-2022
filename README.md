@@ -1,5 +1,5 @@
-# NPS-INR-Cyber-Programming-2021
-The 2022 edition of the NPS Indiranagar interhouse Cyber Programming contest.
+# NPS-INR-Codewars-2021
+The 2022 edition of the NPS Indiranagar interhouse Codewars contest (formerly known as Cyber Programming).
 
 ## About the contest: <a name = "about-the-contest"></a>
 
