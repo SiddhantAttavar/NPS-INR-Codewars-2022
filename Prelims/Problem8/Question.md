@@ -11,13 +11,13 @@ There are _N_ cities on Mars and _M_ potential roads that can be built between t
  - 0 &le; _W<sub>i</sub>_ &le; 10<sup>9</sup>
 
 Subtask 1: 20 points
- - 1 &le; _N_ &le 15
+ - 1 &le; _N_ &le; 15
 
 Subtask 2: 30 points
- - 1 &le; _N_ &le 100
+ - 1 &le; _N_ &le; 100
 
 Subtask 3: 50 points
- - 1 &le; _N_ &le 10<sup>5</sup>
+ - 1 &le; _N_ &le; 10<sup>5</sup>
 
 ## Input Format: <br>
  - The first line contains two integers _N_ and _M_
