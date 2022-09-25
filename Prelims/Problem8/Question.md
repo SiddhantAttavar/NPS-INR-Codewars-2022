@@ -1,4 +1,4 @@
-# Sample Problem
+# Connecting Mars
 
 ## Problem Statement: <br>
 The democratic sovereign peoples republic of Mars is very corrupt. Five years ago they promised that they would build big highways connecting every major city on Mars but they have still not delivered on that promise. The people are now protesting about the poor transportation infrastructure, so the government has finally decided to build the roads. However since the president wants to keep all the taxpayers money for himself, he plans on using as little money as possible to build the roads. To help him out, he calls you to find out the least amount of money required to connect every city on Mars.
