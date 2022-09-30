@@ -1,5 +1,7 @@
-def reverse_words(text):
-    strList = []
-    for word in text.split(' '):
-        strList.append(word[::-1])
-    return ' '.join(strList)
+def binary_number(arr):
+    count = 0
+    arr2 = arr[::-1]
+    for i in range(len(arr)):
+        count = count + (2**i)*arr2[i]
+    return count
+

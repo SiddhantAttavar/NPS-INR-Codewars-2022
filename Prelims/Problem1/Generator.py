@@ -1,9 +1,12 @@
-from random import randint
+import random
 
-def generate(subtask):
-	# Print N
-	n = randint(1, int(1e5))
-	print(n)
+def generate(subtask):  
+    temp = []
+    r = random.randint(1,12)
+    for i in range(r):
+        l = random.randint(0,1)
+        temp.append(l)
+
 
 
 if __name__ == '__main__':
