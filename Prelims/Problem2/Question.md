@@ -1,7 +1,7 @@
 # Problem 2
 ## Problem Statement
-Doreamon and Nobita use Doreamon's 4D pocket to teleport to Mars. Interestingly, they find all numbers in Mars written in binarry! <br/>
-Make a code to convert the binary into numbers, so that nobita can finally by his Gukki and Louis Button Wallet...
+Doreamon and Nobita use Doreamon's 4D pocket to teleport to Mars. Interestingly, they find all numbers in Mars written in binary! <br/>
+Make a code to convert the binary into numbers, so that nobita can finally buy his Gukki and Louis Button Wallet...
 
 ## Explanation
 For those who are not familiar with binary, it works in the powers of 2. For eg, in 101, the right most number [1] stands for 2^0x1, and the middle number [0] stands for 2^1x0, and the leftmost number [1] stands for 2^2x1
