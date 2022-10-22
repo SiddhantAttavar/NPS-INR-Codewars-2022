@@ -9,5 +9,9 @@ def Replace(mat):
     mat.append(y)
     return mat
 
+for _ in range(int(input())):
+    mat = input()
+    
+
 
     
