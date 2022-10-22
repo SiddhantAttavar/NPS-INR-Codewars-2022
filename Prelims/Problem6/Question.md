@@ -43,3 +43,6 @@ ans = [
 
 ## Explanation:
 You will be getting a list n which contains N arrays. Find the length of N. Then tak the first and last arrays and replace them.
+
+## Constraints
+The Output format should be in the same way as the input format, which is N number of subarrays inside the list mat, and each array containing M number of elements. Also, remember NOT TO CHANGE the values of the elements in each subarray. Best not to mess with them...

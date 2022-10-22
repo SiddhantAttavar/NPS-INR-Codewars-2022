@@ -17,6 +17,14 @@ He asks one of his classmates to give him a number, *N*, and Ram will find the s
 But his friend gives him a very large number, which Ram cannot solve.
 Can you help Ram solve this problem?
 
+## Input format
+It will be n the form of an Integer
+6
+
+## Output format
+It should be in the format of an integer,
+210
+
 ## Sample Input:<br>
 ```
 4
@@ -29,3 +37,6 @@ Can you help Ram solve this problem?
 
 ## Explanation:
 The 4th row of the triangle is `12 14 16 18`. Sum of all the numbers in the 4th row is 12+14+16+18 = 60. Hence, 60 is the output.
+
+## Constraints: 
+The Output should be in the form of Integer, and not strings or arrays
