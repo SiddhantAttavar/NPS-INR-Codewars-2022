@@ -1,7 +1,7 @@
 # To The Moon!
 
 ## Problem Statement: <br>
-X Æ A-12 took his friends to a birthday party or mars! They spot an alien with a very big head and no nose. He gives them a matrix of nxm blocks and goes away. Now, X Æ A-12, being the smartest person there, challenges his friends. He asks them to make a code, which will take the first row and last row, and interchange it, something like this
+X Æ A-12 took his friends to a birthday party or mars! They spot an alien with a very big head and no nose. He gives them a matrix of n x m blocks and goes away. Now, X Æ A-12, being the smartest person there, challenges his friends. He asks them to make a code, which will take the first row and last row, and interchange it, something like this
 
 ## Input Format: <br>
 ```

@@ -9,8 +9,15 @@ def Replace(mat):
     mat.append(y)
     return mat
 
-for _ in range(int(input())):
-    mat = input()
+n = int(input("Please enter number of rows"))
+m = int(input("Please enter number of coloumns"))
+mat = []
+for k in range(m):
+    temp = []
+    for l in range(n):
+        a = int(input())
+        temp.append(a)
+    mat.append(temp)
     
 
 
