@@ -4,5 +4,5 @@ def reverse(sen):
     strr = " ".join(inv)
     return strr
  
-sen = str(input("Please Input the Sentence you want to invert"))
+sen = str(input())
 print(reverse(sen))
