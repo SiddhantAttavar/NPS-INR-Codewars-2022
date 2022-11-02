@@ -2,7 +2,7 @@ from random import randint
 
 def generate(subtask):
 	# Print N
-	n = randint(1, int(1e5))
+	n = randint(1, int(1e4))
 	print(n)
 
 
