@@ -1,5 +1,5 @@
 # Problem 1
-## Problem Statement: <br>
+## Problem Statement: <br> 
 Ram is a very exceptional student. While all other students were using even numbers to play a game of odd or eve, Ram was using these numbers to build an imaginary triangle of them.  
 
 You can imagine the triangle something like this:
@@ -13,29 +13,30 @@ You can imagine the triangle something like this:
 and so on infinitely.  
 
 Now Ram wants to take his thinking to the next level.
-He asks one of his classmates to give him a number, *N*, and Ram will find the sum of all the numbers in the *N*th row. How Interesting!
+He asks one of his classmates to give him a number, _N_, and Ram will find the sum of all the numbers in the _N_th row. How Interesting!
 But his friend gives him a very large number, which Ram cannot solve.
 Can you help Ram solve this problem?
 
-## Input format
-It will be n the form of an Integer
-6
+## Input format: <br>
+ - A single line of input containing the integer _N_
 
-## Output format
-It should be in the format of an integer,
-210
+## Output format: <br>
+ - A single integer representing the sum of all numbers on the _Nth_ row
 
-## Sample Input:<br>
+## Constraints: <br>
+ - 1 &le; _N_ &le; 10<sup>4</sup>
+
+## Sample Input: <br>
 ```
 4
 ```
 
-## Sample Output:<br>
+## Sample Output: <br>
 ```
 60
 ```
 
-## Explanation:
+## Explanation: <br>
 The 4th row of the triangle is `12 14 16 18`. Sum of all the numbers in the 4th row is 12+14+16+18 = 60. Hence, 60 is the output.
 
 ## Constraints: 
