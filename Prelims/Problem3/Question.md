@@ -1,8 +1,6 @@
-# Problem 1
+# The Milky Way's Chamber of Secrets
 ## Problem Statement: <br> 
-Ram is a very exceptional student. While all other students were using even numbers to play a game of odd or eve, Ram was using these numbers to build an imaginary triangle of them.  
-
-You can imagine the triangle something like this:
+Mars is the head of a matrix of planets in the Milky Way. After Mars, many other planets were forming a triangle. It looks something like this:
 ```
         0
        2 4
@@ -12,10 +10,7 @@ You can imagine the triangle something like this:
 ```
 and so on infinitely.  
 
-Now Ram wants to take his thinking to the next level.
-He asks one of his classmates to give him a number, _N_, and Ram will find the sum of all the numbers in the _N_th row. How Interesting!
-But his friend gives him a very large number, which Ram cannot solve.
-Can you help Ram solve this problem?
+Can you make a code to sum up all the numbers in a given line _N_?
 
 ## Input format: <br>
  - A single line of input containing the integer _N_
@@ -38,6 +33,3 @@ Can you help Ram solve this problem?
 
 ## Explanation: <br>
 The 4th row of the triangle is `12 14 16 18`. Sum of all the numbers in the 4th row is 12+14+16+18 = 60. Hence, 60 is the output.
-
-## Constraints: 
-The Output should be in the form of Integer, and not strings or arrays
