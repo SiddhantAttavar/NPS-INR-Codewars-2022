@@ -4,5 +4,5 @@ def reverse(sen):
     strr = " ".join(inv)
     return strr
  
-sen = str(input())
+sen = input()
 print(reverse(sen))
