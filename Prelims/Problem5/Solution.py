@@ -1,14 +1,13 @@
-def max_profit(arr):
-    m = arr.pop()
-    maxsum = 0
-    arrsum = 0
-    for p in reversed(arr):
-        m = max(m, p)
-        maxsum += m
-        arrsum += p
-    return maxsum - arrsum
+n = int(input())
+a = [list(map(int, input().split())) for _ in range(n)]
 
-for _ in range(int(input())):
-    n = int(input())
-    arr = list(map(int,input().split()))
-    print(int(max_profit(arr)))
+a.sort(key = lambda x: x[1])
+
+c = 0
+res = 0
+for i in a:
+	if c < i[0]:
+		res += 1
+		c = i[1]
+
+print(res)

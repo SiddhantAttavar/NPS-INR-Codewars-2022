@@ -1,45 +1,43 @@
-# To The Moon!
+# Sample Problem
 
 ## Problem Statement: <br>
-X Æ A-15 Musk, the richest person on Mars, is an avid investor. His army of Tesla Bots has devised an algorithm to accurately predict the share price of Frozen Banana Corporation (FBC) for the next few days. Now unstoppable, he has decided to invest in FBC and wants to know the maximum profit he can make by buying and selling the stock.
-
-Each day, he can either buy one share of FBC, sell any number of shares of FBC that he owns, or not make any transaction at all. What is the maximum profit he can obtain with an optimum trading strategy?
-
-## Input Format: <br>
-- The first line contains the number of test cases _T_.
-- For each of the _T_ test cases:
-    - The first line contains an integer _N_, the number of days predicted.
-    - The second line contains _N_ space-separated integers, _P<sub>i</sub>_, the price of FBC on the _i<sup>th</sup>_ day.
-
-## Output Format: <br>
-For each test case, output a single line containing the maximum profit that X Æ A-15 Musk can make.
+The Supreme Hon'ble head of state of the Democratic People's Republic of Mars has a very busy schedule. He has _N_ appointments on his calendar. However since some of them overlap, it is impossible for him to attend all these appointments. Therefore, he wants to select a subset of these _N_ appointments. The _ith_ event begins at time _S<sub>i</sub>_ and ends at time _T<sub>i</sub>_. Your task is to find the maximum number of appointments that the head of state can attend without any overlapping appointments.
 
 ## Constraints: <br>
-- 1 ≤ _T_ ≤ 10
-- 1 ≤ _N_ ≤ 5 * 10<sup>4</sup>
-- 1 ≤ _P<sub>i</sub>_ ≤ 10<sup>5</sup>
+ - 1 &le; _S<sub>i</sub>_, _B<sub>i</sub>_ &le; 10<sup>9</sup>
+ - 1 &le; _N_ &le; 10<sup>5</sup>
 
-## Sample Input: <br>
+Subtask 1: 20 points
+ - 1 &le; _N_ &le; 15
+
+Subtask 2: 10 points
+ - _S<sub>i</sub>_ == _T<sub>i</sub>_
+
+Subtask 3:
+ - No additional constraints
+
+## Input Format: <br>
+ - The first line contains a single integer _N_
+ - The next _N_ lines contain two integers _S<sub>i</sub>_ and _T<sub>i</sub>_
+
+## Output Format: <br>
+ - Print a single line containing the maximum number of events the head of state can attend
+
+## Sample input: <br>
 ```
-3
-3
-5 3 2
-3
-1 2 100
 4
-1 3 1 2
+1 3
+2 5
+3 9
+6 8
 ```
 
-## Sample Output: <br>
+## Sample output: <br>
 ```
-0
-197
-3
+2
 ```
 
 ## Explanation: <br>
-For the first case, there is no profit because the share price never rises, return 0.
+If we select the first appointment, it gets over at time 3. Then we cannot select either the second or third appointment as they overlap with the first one. The only appointment we can select is the fourth one.
 
-For the second case, buy one share on the first two days and sell both of them on the third day for a profit of 197.
-
-For the third case, buy one share on day 1, sell one on day 2, buy one share on day 3, and sell one share on day 4. The overall profit is 3.
+It can be shown that there is no way to select 3 or more appointments without overlap.
