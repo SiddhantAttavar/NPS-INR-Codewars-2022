@@ -1,4 +1,4 @@
-import random
+from random import randint
 
 def generate(subtask):
 	# Print N
