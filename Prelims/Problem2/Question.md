@@ -1,27 +1,23 @@
-# Problem 2
-## Problem Statement
-Doreamon and Nobita use Doreamon's 4D pocket to teleport to Mars. Interestingly, they find all numbers in Mars written in binary! <br/>
-Make a code to convert the binary into numbers, so that nobita can finally buy his Gukki and Louis Button Wallet...
+# Question 4
 
-## Explanation
-For those who are not familiar with binary, it works in the powers of 2. For eg, in 101, the right most number [1] stands for 2^0x1, and the middle number [0] stands for 2^1x0, and the leftmost number [1] stands for 2^2x1
-Hence, 101 is 2^2x1 + 2^1x0 + 2^0x1 = 5+0+1 = 6
-The same way, 10101 = 2^4x1 + 2^3x0 + 2^2x1 + 2^1x0 + 2^0x1 = 16+0+4+0+1 = 21
+## Problem Statement: <br>
+Elon Musk Reach mars, and takes his Tesla Roadster for a JoyRide! But the moment he switches on the Engine, he realises that his electric car is now a 12.0L W16 with 8 Speed Transmission. HOW??? 
+Then he realises mars is nothing but a Real life scene of the movie Tenet. Everything here was inverted! 
+Elon, as much as he hates to do so, has asked you for help
+Elon now wants you to make a code, which will take each word in a string, and invert each and every WORD of the string.
 
-## Input Format
-It will be inputed as a string, 
-1001
+## Input Format: <br>
+"olleH ym eman si !nolE"
 
-## Output Format
-As an integer, 
-9
+## Output Format: <br>
+"Hello my name is Elon!"
 
-## Sample Input
-1011
+## Constraints: <br>
+Only each and every word, only the word, in  string should be inverted one by one, not the whole string.
+The Answer should be in the format of a String
 
-## Sample Ouput
-11
+## Sample Input: <br>
+"oY norI nam si !ereht"
 
-## Constraints
- The answer should only be executed in the form of an integer, not a string or array.
-
+## Sample Output: <br>
+"Yo Iron man is there!"

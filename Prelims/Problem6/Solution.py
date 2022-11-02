@@ -1,24 +1,37 @@
-def Replace(mat):
-    n = len(mat)
-    for i in range(n-1):
-        x = mat[0]
-        mat.pop(0)
-        mat.append(x)
-    y = mat[1]
-    mat.pop(1)
-    mat.append(y)
-    return mat
+n, m = map(int, input().split())
+a = [-1] * n
+e = [list(map(int, input().split())) for _ in range(m)]
 
-n = int(input("Please enter number of rows"))
-m = int(input("Please enter number of coloumns"))
-mat = []
-for k in range(m):
-    temp = []
-    for l in range(n):
-        a = int(input())
-        temp.append(a)
-    mat.append(temp)
-    
+def get(x):
+	if a[x] < 0:
+		return x
+	a[x] = get(a[x])
+	return a[x]
 
+def unite(x, y):
+	x = get(x)
+	y = get(y)
 
-    
+	if x == y:
+		return False
+	
+	if a[x] < a[y]:
+		x, y = y, x
+	
+	a[y] += a[x]
+	a[x] = y
+	return True
+
+e.sort(key = lambda x: x[2])
+
+res = 0
+for u, v, w in e:
+	if unite(u - 1, v - 1):
+		res += w
+x = get(0)
+for i in range(1, n):
+	if get(i) != x:
+		print(-1)
+		break
+else:
+	print(res)
