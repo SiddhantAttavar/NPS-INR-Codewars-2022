@@ -1,4 +1,4 @@
-# Sample Problem
+# Appointment Scheduling
 
 ## Problem Statement: <br>
 The Supreme Hon'ble head of state of the Democratic People's Republic of Mars has a very busy schedule. He has _N_ appointments on his calendar. However since some of them overlap, it is impossible for him to attend all these appointments. Therefore, he wants to select a subset of these _N_ appointments. The _ith_ event begins at time _S<sub>i</sub>_ and ends at time _T<sub>i</sub>_. Your task is to find the maximum number of appointments that the head of state can attend without any overlapping appointments.
