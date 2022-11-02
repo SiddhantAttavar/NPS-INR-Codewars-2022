@@ -11,7 +11,7 @@ Subtask 1: 20 points
  - 1 &le; _N_ &le; 15
 
 Subtask 2: 10 points
- - _S<sub>i</sub>_ == _T<sub>i</sub>_
+ - _S<sub>i</sub>_ = _T<sub>i</sub>_
 
 Subtask 3:
  - No additional constraints
