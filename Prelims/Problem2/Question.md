@@ -13,8 +13,7 @@ Elon now wants you to make a code, which will take each word in a string, and in
 - A string containing the inverted words, but in the same order.
 
 ## Constraints: <br>
-Only each and every word, only the word, in  string should be inverted one by one, not the whole string.
-The Answer should be in the format of a String
+ - 1 &le; length of string &le; 110
 
 ## Sample Input: <br>
 ```
