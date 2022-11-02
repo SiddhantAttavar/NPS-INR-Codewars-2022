@@ -38,3 +38,6 @@ Can you help Ram solve this problem?
 
 ## Explanation: <br>
 The 4th row of the triangle is `12 14 16 18`. Sum of all the numbers in the 4th row is 12+14+16+18 = 60. Hence, 60 is the output.
+
+## Constraints: 
+The Output should be in the form of Integer, and not strings or arrays
