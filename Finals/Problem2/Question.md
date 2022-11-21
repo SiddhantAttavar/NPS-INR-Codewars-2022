@@ -1,4 +1,4 @@
-# Sample Problem
+# Garlanding in the FIFA Mars Cup
 
 ## Problem Statement: <br>
 In order to commemorate the opening ceremony of the FIFA Mars Cup, the organisers decide to give every player a garland of red and green flowers. The organisers of the FIFA Mars Cup want to make sure that all the garlands that they give to the players are beautiful. There are _T_ garlands each consisting of _N_ flowers placed in a cyclic order. Since Martians believe in change, a garland is considered beautiful if no two adjacent flowers are of the same color. To make the garland beautiful you may perform the following operation at most _K_ times:
