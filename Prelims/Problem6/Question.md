@@ -44,3 +44,44 @@ Subtask 3: 50 points
 We can build a road between cities 1 and 3, and a road between cities 1 and 2, for a total cost of 5 + 2 = 7
 
 Note that cities 3 and 2 need not have a direct road between them, they are still considered connected as one can travel from 3 to 1 to 2.
+
+## Solution: <br>
+```python
+n, m = map(int, input().split())
+a = [-1] * n
+e = [list(map(int, input().split())) for _ in range(m)]
+
+def get(x):
+	if a[x] < 0:
+		return x
+	a[x] = get(a[x])
+	return a[x]
+
+def unite(x, y):
+	x = get(x)
+	y = get(y)
+
+	if x == y:
+		return False
+	
+	if a[x] < a[y]:
+		x, y = y, x
+	
+	a[y] += a[x]
+	a[x] = y
+	return True
+
+e.sort(key = lambda x: x[2])
+
+res = 0
+for u, v, w in e:
+	if unite(u - 1, v - 1):
+		res += w
+x = get(0)
+for i in range(1, n):
+	if get(i) != x:
+		print(-1)
+		break
+else:
+	print(res)
+```

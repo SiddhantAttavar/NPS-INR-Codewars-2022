@@ -41,3 +41,20 @@ Subtask 3:
 If we select the first appointment, it gets over at time 3. Then we cannot select either the second or third appointment as they overlap with the first one. The only appointment we can select is the fourth one.
 
 It can be shown that there is no way to select 3 or more appointments without overlap.
+
+## Solution: <br>
+```python
+n = int(input())
+a = [list(map(int, input().split())) for _ in range(n)]
+
+a.sort(key = lambda x: x[1])
+
+c = 0
+res = 0
+for i in a:
+	if c < i[0]:
+		res += 1
+		c = i[1]
+
+print(res)
+```

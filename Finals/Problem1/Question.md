@@ -14,3 +14,8 @@ What is the first thing you say when its your first time coding? Or when its you
 
 # Instructions:
 Ya just print hello world
+
+## Solution: <br>
+```python
+print("Hello World!")
+```

@@ -33,3 +33,11 @@ Can you make a code to sum up all the numbers in a given line _N_?
 
 ## Explanation: <br>
 The 4th row of the triangle is `12 14 16 18`. Sum of all the numbers in the 4th row is 12+14+16+18 = 60. Hence, 60 is the output.
+
+## Solution: <br>
+```python
+# Take input
+n = int(input())
+solution = (n-1) * n * (n+1)
+print(solution)
+```

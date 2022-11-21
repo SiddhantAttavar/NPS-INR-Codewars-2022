@@ -26,3 +26,12 @@ For each of the _N_ testcases, print the sum of two integers _A_ and _B_.
 3
 11
 ```
+
+## Solution: <br>
+```python
+# Loop through all testcases
+for _ in range(int(input())):
+ # Take input and print sum
+	a, b = map(int, input().split())
+	print (a + b)
+```
