@@ -1,4 +1,4 @@
-# Sample Problem
+# Last one picked
 
 ## Problem Statement: <br>
 Finally, after years of anticipation, the first basketball court has been opened on Mars, so the governor has decided to hold a basketball exercise session. 2⋅n students have come to the governor's exercise session, and he lined up them into two rows of the same size (there are exactly _N_ people in each row). Students are numbered from 1 to _N_ in each row in order from left to right.
