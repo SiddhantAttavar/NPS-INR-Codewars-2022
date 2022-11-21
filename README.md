@@ -20,16 +20,16 @@ Under the `Prelims` and `Finals` folder you can find subfolders containing the d
 To generate more test data, run the `TestDataGenerator.py` script using the `python TestDataGenerator.py` command and input the relative problem folder path (e.g. `Prelims/Problem1`). Edit the `Subtasks.txt` file in the folder to generate more data of different subtasks.
 
 ## Prelims problems <a name = "prelims-round-tasks"></a>
- - [Mars 101](https://siddhantattavar.github.io/NPS-INR-Codewars-2022/Prelims/Problem1/Question)
- - [Roadster to Bugatti?](https://siddhantattavar.github.io/NPS-INR-Codewars-2022/Prelims/Problem2/Question)
- - [The Milky Way's Chamber of Secrets](https://siddhantattavar.github.io/NPS-INR-Codewars-2022/Prelims/Problem3/Question)
- - [To The Moon!](https://siddhantattavar.github.io/NPS-INR-Codewars-2022/Prelims/Problem4/Question)
- - [Appointment Scheduling](https://siddhantattavar.github.io/NPS-INR-Codewars-2022/Prelims/Problem5/Question)
- - [Connecting Mars](https://siddhantattavar.github.io/NPS-INR-Codewars-2022/Prelims/Problem6/Question)
+ - [Mars 101]({{ site.baseurl }}{% link Prelims/Problem1/Question.md %})
+ - [Roadster to Bugatti?]({{ site.baseurl }}{% link Prelims/Problem2/Question.md %})
+ - [The Milky Way's Chamber of Secrets]({{ site.baseurl }}{% link Prelims/Problem3/Question.md %})
+ - [To The Moon!]({{ site.baseurl }}{% link Prelims/Problem4/Question.md %})
+ - [Appointment Scheduling]({{ site.baseurl }}{% link Prelims/Problem5/Question.md %})
+ - [Connecting Mars]({{ site.baseurl }}{% link Prelims/Problem6/Question.md %})
 
 ## Finals problems <a name = "finals"></a>
- - [Landed on Mars](https://siddhantattavar.github.io/NPS-INR-Codewars-2022/Finals/Problem1/Question)
- - [Garlanding in the FIFA Mars Cup](https://siddhantattavar.github.io/NPS-INR-Codewars-2022/Finals/Problem2/Question)
- - [Last one picked](https://siddhantattavar.github.io/NPS-INR-Codewars-2022/Finals/Problem3/Question)
- - [Appointment Scheduling](https://siddhantattavar.github.io/NPS-INR-Codewars-2022/Finals/Problem4/Question)
- - [Connecting Mars](https://siddhantattavar.github.io/NPS-INR-Codewars-2022/Finals/Problem5/Question)
+ - [Landed on Mars]({{ site.baseurl }}{% link Finals/Problem1/Question.md %})
+ - [Garlanding in the FIFA Mars Cup]({{ site.baseurl }}{% link Finals/Problem2/Question.md %})
+ - [Last one picked]({{ site.baseurl }}{% link Finals/Problem3/Question.md %})
+ - [Appointment Scheduling]({{ site.baseurl }}{% link Finals/Problem4/Question.md %})
+ - [Connecting Mars]({{ site.baseurl }}{% link Finals/Problem5/Question.md %})
