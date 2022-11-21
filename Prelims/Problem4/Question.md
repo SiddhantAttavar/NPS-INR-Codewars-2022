@@ -43,3 +43,21 @@ For the first case, there is no profit because the share price never rises, retu
 For the second case, buy one share on the first two days and sell both of them on the third day for a profit of 197.
 
 For the third case, buy one share on day 1, sell one on day 2, buy one share on day 3, and sell one share on day 4. The overall profit is 3.
+
+## Solution: <br>
+```python
+def max_profit(arr):
+    m = arr.pop()
+    maxsum = 0
+    arrsum = 0
+    for p in reversed(arr):
+        m = max(m, p)
+        maxsum += m
+        arrsum += p
+    return maxsum - arrsum
+
+for _ in range(int(input())):
+    n = int(input())
+    arr = list(map(int,input().split()))
+    print(int(max_profit(arr)))
+```
